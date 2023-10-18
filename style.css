@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: url("img/Hue_Saturation\ 5\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: inset 0 -300px 300px 150px rgba(0,0,0,0.9);
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+ 
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.glow1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 0.65;
+    background-image:url("img/glow\ 1.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    top: -13px;
+}
+
+.boxes_img {
+    position: relative;
+    margin-top: 170px;
+}
+
+.boxes_img h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 42px;
+    line-height: 49.22px;
+    font-weight: 700;
+}
+
+.boxes_img p {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: white;
+}
+
+.second-page {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("img/background\ wall.png");
+    
+}
+
+.heading h1 {
+    color: #416DF4;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: flex-end;
+    color:rgba(103, 29, 0, 0.48)
+}
+
+.tabs button {
+    border:solid 2px rgba(103, 29, 0, 0.48);
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: rgba(103, 29, 0, 0.48);
+    margin-bottom: 5px;
+}
+
+.table-table table{
+    width: 100%;
+
+}
+
+table tr th,
+table tr td {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border:none;
+}
+
+table th:last-child,
+table td:last-child {
+  margin-bottom: 0;
+}
+
+
+.table-table td{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 1px;
+    border: 1px solid rgba(103, 29, 0, 0.48);
+    border-right: none;
+    border-left: none;
+}
+
+.table-table td:nth-child(2) {
+    width: 205px;
+    padding: 6px 50px 6px 6px;
+  }
+
+.table-table td:first-child {
+    border-left: 1px solid rgba(103, 29, 0, 0.48); 
+}
+
+.table-table td:last-child {
+    text-align: center;
+    border-right: 1px solid rgba(103, 29, 0, 0.48);
+    padding-right: 60px;
+}
+
+.table-table td:nth-child(3) {
+    padding-right: 140px;
+}
+
+.table-table {
+    font: 400 16px/1.2 "Roboto", sans-serif;
+    color: #FFFFFF;
+}
+
+.info_about_box {
+    font-weight: 400;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 58.59px;
+}
+
+.info_about_box p {
+    margin: 0;;
+}
+
+.btn_about {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: yellow;
+}
+
+.vito {
+    display: flex;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.dog {
+    background-image: url("img/Vito\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;   
+}
